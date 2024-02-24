@@ -1,0 +1,299 @@
+.main_23{
+    /* border: 2px solid black; */
+    height: 200vh;
+    width: 80%;
+    margin-left: 30vh;
+    display: flex;
+}
+.divbox1{
+    /* border: 2px solid black; */
+    height: 200vh;
+    width: 45%;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+.divbox2{
+    /* border: 2px solid black; */
+    height: 200vh;
+    width: 45%;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+.consultant{
+    /* border: 2px solid #0558ac; */
+    height: 50vh;
+    background-color: #dfe6eb;
+    margin-bottom: 2vh;
+    border-radius: 5px;
+ } 
+ .name_23{
+    position: relative;
+    left: 5vh;
+    top: 6vh;
+    font-size: 20px;
+    font-size: 34px;
+  }
+  .special_23{
+    position: relative;
+    left: 5vh;
+    top:7vh;
+    font-size: 20px;
+
+  }
+  .topdoc_23{
+    margin-top: 2vh;
+    margin-left:2vh;
+    font-size: 40px;
+  }
+  .rating_23{
+    position: relative;
+    top: -12vh;
+    left: 6vh;
+  }
+  .timeslot_23{
+    position: relative;
+    left: 20vh;
+    top: -14.5vh;
+  }
+  .docimg_23{
+    background-image: url("https://img.freepik.com/premium-photo/healthcare-medical-concept-young-male-doctor-with-stethoscope-hospital_380164-53003.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 52vh;
+    top: -7vh;
+    scale: 1.5;
+    border-radius: 50%;}
+    .docimg2_23{
+        background-image: url("https://img.freepik.com/premium-photo/medical-concept-indian-beautiful-female-doctor-white-coat-with-stethoscope-waist-up-medical-student-woman-hospital-worker-looking-camera-smiling-studio-blue-background_185696-621.jpg?w=1380");
+        background-size: cover;
+        height: 100px;
+        width: 100px;
+        position: relative;
+        left: 52vh;
+        top: -7vh;
+        scale: 1.5;
+        border-radius: 50%;}
+        .docimg3_23{
+            background-image: url("https://img.freepik.com/premium-photo/woman-white-lab-coat-with-stethoscope-her-neck-stands-with-her-arms-crossed_870833-22.jpg?w=2000");
+            background-size: cover;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            left: 52vh;
+            top: -7vh;
+            scale: 1.5;
+            border-radius: 50%;
+        }
+        .docimg4_23{
+            background-image: url("https://img.freepik.com/premium-photo/portrait-doctor-uniform_677403-163.jpg");
+            background-size: cover;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            left: 52vh;
+            top: -7vh;
+            scale: 1.5;
+            border-radius: 50%;
+        }
+        .docimg5_23{
+            background-image: url("https://th.bing.com/th/id/OIP.wBv-jh8R3-Ohr1gM-ju8iQHaHa?w=1600&h=1600&rs=1&pid=ImgDetMain");
+            background-size: cover;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            left: 52vh;
+            top: -7vh;
+            scale: 1.5;
+            border-radius: 50%;
+        }
+        .docimg6_23{
+            background-image: url("https://th.bing.com/th/id/OIP.wBv-jh8R3-Ohr1gM-ju8iQHaHa?w=1600&h=1600&rs=1&pid=ImgDetMain");
+            background-size: cover;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            left: 52vh;
+            top: -7vh;
+            scale: 1.5;
+            border-radius: 50%;
+        }
+        .docimg7_23{
+            background-image: url("https://img.freepik.com/premium-photo/medical-concept-indian-beautiful-female-doctor-white-coat-with-stethoscope-waist-up-medical-student-woman-hospital-worker-looking-camera-smiling-studio-blue-background_185696-621.jpg?w=1380");
+            background-size: cover;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            left: 52vh;
+            top: -7vh;
+            scale: 1.5;
+            border-radius: 50%;
+        }
+        .docimg8_23{
+            background-image: url("https://img.freepik.com/premium-photo/medical-concept-indian-beautiful-female-doctor-white-coat-with-stethoscope-waist-up-medical-student-woman-hospital-worker-looking-camera-smiling-studio-blue-background_185696-621.jpg?w=1380");
+            background-size: cover;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            left: 52vh;
+            top: -7vh;
+            scale: 1.5;
+            border-radius: 50%;
+        }
+    .experience{
+        position: relative;
+        left: 5vh;
+        top:10vh;
+        font-size: 20px;
+    }
+    .life_23{
+        height: 4vh;
+        width:11vh;
+        background-color: white;
+        position: relative;
+        left: 5vh;
+        top:-1vh;
+        text-align: center;
+        padding-top: 1vh;
+        /* align-content: center; */
+        border: 2px solid transparent ;
+        border-radius: 4px;
+    }
+    .trauma{
+        height: 4vh;
+        width:11vh;
+        background-color: white;
+        position: relative;
+        left: 17.5vh;
+        top:-6.25vh;
+        text-align: center;
+        padding-top: 1vh;
+        /* align-content: center; */
+        border: 2px solid transparent ;
+        border-radius: 4px;
+    }
+    .relationships{
+        height: 4vh;
+        width:14.5vh;
+        background-color: white;
+        position: relative;
+        left: 30.5vh;
+        top:-14.25vh;
+        text-align: center;
+        padding-top: 1vh;
+        /* align-content: center; */
+        border: 2px solid transparent ;
+        border-radius: 4px;
+    }
+    .price{
+        position: relative;
+        left:6vh;
+        top: -10vh;
+        margin-bottom:- 0.5vh;
+    }
+    .booknow button{
+        background-color: white;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        height: 5.5vh;
+        width: 20vh;
+        position: relative;
+        left:46vh;
+        top:-15.5vh;
+        font-size: 18px;
+    }
+    .main_form{
+        height: 75vh;
+        width: 33%;
+        border: 2px solid black;
+        margin-left: 5vh;
+        margin-top: 3.5vh;
+        border-radius: 3px;
+    }
+    .prob1{
+        margin-top: 3vh;
+        margin-left: 4vh;
+        font-size: 20px;
+    }
+    .headform_23{
+        margin-left: 35vh;
+        margin-top: 5vh;
+        font-size: 25px;
+    }
+    .Problem_Statement{
+        height: 20vh;
+        width: 90%;
+    }
+    .Problem_Statement{
+        display: flex;
+        justify-content: center;
+    }
+    .Problem_Statement textarea{
+        margin-left: 5vh;
+        margin-top: 2vh;
+    }
+   
+    .date_23{
+        display: flex;
+    }
+    .Date{
+        margin-left: 5vh;
+        margin-top: 2vh;
+        /* margin-bottom: 2vh; */
+        font-size: 20px;
+    }
+   .submit input{
+    margin-left: 2vh;
+    margin-top: 2vh;
+    height: 5vh;
+    width: 8.5vh;
+   }
+   .date input{
+   max-width: 50vh;
+   height: 5vh;
+   }
+   .slot_23{
+    font-size: 18px;
+    margin-left: 5vh;
+    margin-top: 3vh;
+   }
+   .bb1{
+    display: flex;
+    height: 8vh;
+    width: 55vh;
+    /* border: 2px solid black; */
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    margin-left: 5vh;
+   }
+.bb2{
+    display: flex;
+    height: 8vh;
+    width: 55vh;
+    margin-left: 5vh;
+    /* border: 2px solid black; */
+}
+.Bg_23{
+    border: 2px solid black;
+    height: 5vh;
+    max-width:23vh;
+    margin-left: .8vh;
+    margin-top: 1.5vh;
+    border-radius: 5px;
+}
+.container_for_doctor{
+    height: 50vh;
+    width: 70vh;
+    border: 2px solid black;
+    margin-left:33vh;
+    margin-top: 3.8vh;
+    border-radius: 5px;
+}
+.cont09{
+display: flex;
+}
+nameofdoc{
+    font-size: 40px;
+    ;
+}

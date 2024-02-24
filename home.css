@@ -1,0 +1,117 @@
+#feature_23{
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 50px;
+}
+.feature_body{
+    display: flex;
+}
+.fb1023{
+    /* border: 2px solid black; */
+    height: 80vh;
+    width: 35%;
+    margin-left: 30vh;
+    display: flex;
+}
+.fb2023{
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 35%;   
+}
+.featureb{
+    height: 40vh;
+    width: 85%;
+    /* border: 2px solid black; */
+    margin-left: 5vh;
+    margin-bottom: 2vh;
+    display: flex;
+}
+.fimg1{
+    background-image: url("feature01-removebg-preview.png");
+    background-size: cover;
+    /* border: 2px solid black; */
+    height:230px;
+    width: 1100px;
+    margin-left: -15vh;
+    margin-top: -10vh;
+}
+.fcontent h1{
+    font-size: 23px;
+    margin-left:2vh;
+}
+.fcontent p{
+    font-size: 15px;
+    margin-top: 10vh;
+}
+.box_f1{
+    background-color: #fbeaf3;
+    /* box-shadow: 0px 0px 55px rgb(208, 83, 208); */
+    border-radius: 200px 10px 10px 10px;
+
+}
+.box_f2{
+    background-color:#d2def1 ;
+    /* box-shadow: 0px 0px 55px #5784e6 ; */
+    border-radius: 10px;
+    margin-left: 18vh;
+    border-radius: 200px 10px 10px 10px;
+}
+.fimg2{
+    background-image: url("featureimg02-removebg-preview.png");
+    background-size: cover;
+    /* border: 2px solid black; */
+    height:230px;
+    width: 1100px;
+    margin-left:-10vh;
+    margin-top: -7vh;
+}
+.box_f4{
+    /* border: 2px solid black; */
+    background-color: rgb(242, 242, 217);
+    /* box-shadow: 0px 0px 55px rgb(242, 242, 39); */
+    margin-top: -40vh;
+    margin-left: 13vh;
+    width: 85%;
+    height: 92vh;
+    border-radius: 200px 10px 10px 10px;
+
+}
+.fimg4{
+    background-image: url("feature_img04-removebg-preview.png");
+    background-size: cover;
+    height:250px;
+    width: 1100px;
+    margin-left: -16vh;
+    margin-top: -8vh;
+}
+.featurebb{
+    height: 40vh;
+    width: 85%;
+    border-radius: 5px;
+    border-radius: 200px 10px 10px 10px;
+    display: flex;
+}
+.fcontentb h1{
+    /* margin-top: -25vh; */
+    font-size: 25px;
+    margin-left: 5vh;
+}
+.box_f3{
+    height: 40vh;
+    width: 85%;
+    margin-top: 50vh;
+    margin-left: -65vh;
+    background-color: rgb(199, 222, 199);
+    border-radius: 200px 10px 10px 10px;
+    /* box-shadow: 0px 0px 55px rgb(109, 251, 109); */
+
+}
+.fimg3{
+    background-image: url("featureimg03-removebg-preview.png");
+    background-size: cover;
+    height:240px;
+    width: 1070px;
+    margin-left: -16vh;
+    margin-top: -7vh;
+
+}
