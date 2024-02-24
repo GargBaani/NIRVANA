@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="meditation.css" />
+    <title>Meditation App</title>
+  </head>
+  <body>
+    <div id="medbox">
+    <div class="input">
+      <label style="color: azure;">Select Meditation Time</label>
+      <select class="breath-input" style="color: black;">
+        <option value="3" style="color: black;">5 mins</option>
+        <option value="5" style="color: black;">10 mins</option>
+        <option value="7" style="color: black;">20mins</option>
+      </select>
+    </div>
+    <div class="circle-wrap">
+      <div class="circle-outline"></div>
+      <div class="circle-progress"></div>
+    </div>
+    <p class="breaths" style="color:azure;">Breaths remaining: <span class="breaths-text">3</span></p>
+    <p class="instructions" style="color: azure;">Are you ready to start breathing?</p>
+    <button class="start" style="color: black;">Begin</button>
+    <script src="script.js"></script>
+    </div>
+  </body>
+</html>

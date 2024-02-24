@@ -1,0 +1,25 @@
+.waves img{
+    width: 100vw;
+    height: auto;
+    
+}
+#footercontent{
+    width: 100vw;
+    height: 30vh;
+    background-color:#3586ff;
+    margin-top: -2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.felements{
+    width:10vw;
+   
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.felements a{
+    text-decoration: none;
+    color: white;
+}
