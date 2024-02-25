@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-... (the integrity hash) ..." crossorigin="anonymous">
+  <style>
+    body{
+      width:100%;
+      height:90vh;
+      background-image:url("Writing a letter-bro.png");
+      background-size:contain;
+      background-repeat:no-repeat;
+    }
+    .container {
+      margin-left:100vh;
+      position: relative;
+      width:85vh;
+      height:90vh;
+      margin-top:10vh;
+      /* border:1px solid black; */
+    }
+
+    .image {
+      width: 100%;
+      height:100%;
+    }
+
+    #usertext {
+      position: absolute;
+      top: 50%; 
+      left: 50%;
+      height:70vh;
+      transform: translate(-50%, -50%);
+      width: 80%; 
+      
+    }
+    #userbtn{
+        position:absolute;
+        top:92%;
+        transform: translate(-200%, -50%);
+        padding:2px;
+    }
+    
+  </style>
+</head>
+<body>
+    <div class="container">
+        <img class="image" src="spi.jpg" alt="Your Image">
+        <textarea id="usertext" placeholder="Write your feelings..."></textarea>
+        <button id="userbtn" onclick="saveToLocalStorage()">Save..</button>
+    </div>
+
+
+    <script>
+        function saveToLocalStorage() {
+            var userTextValue = document.getElementById('usertext').value;
+            localStorage.setItem('userText', userTextValue);
+            alert('Text saved to local storage!');
+        }
+        window.onload = function() {
+            var storedText = localStorage.getItem('userText');
+            if (storedText) {
+                document.getElementById('usertext').value = storedText;
+            }
+        };
+    </script>
+    
+    </body>
+    </html>
+    
