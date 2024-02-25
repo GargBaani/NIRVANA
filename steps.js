@@ -3,28 +3,32 @@ document.addEventListener("DOMContentLoaded", function() {
   const nextBtn = document.getElementById("nextBtn");
   const stepscontainerDiv = document.getElementById("stepscontainer");
   const stepsDiv = document.getElementById("steps");
-  const backgroundColors = ["#21d4fd", "#b721ff", "#21d4fd", "#b721ff"]; // Example background colors for each step
+  const backgroundColors = ["#21d4fd", "#b721ff", "#21d4fd", "#b721ff"]; 
 
-  // Initial content and background color of the stepscontainerDiv
+
   stepscontainerDiv.innerHTML = "<p>Hey there! If you're feeling a bit low, just remember that life has its ups and downs, but the best moments are yet to come</p>";
-  stepscontainerDiv.style.backgroundImage = "url('icegif-149.gif')"; // Corrected this line
+  stepscontainerDiv.style.backgroundImage = "url(Meditation-amico.png)"; 
+ 
+ 
+  
+
 
   nextBtn.addEventListener("click", function() {
       const currentItem = document.querySelector(".current-item");
       const nextItem = currentItem.nextElementSibling;
 
       if (nextItem !== null) {
-          // Remove 'current-item' class from current step
+         
           currentItem.classList.remove("current-item");
           
-          // Add 'current-item' class to next step
+          
           nextItem.classList.add("current-item");
 
-          // Change loader color to match current step
+          
           const loader = document.querySelector(".progress-count");
           loader.style.background = getComputedStyle(nextItem).backgroundColor;
 
-          // Change content and background color of stepscontainerDiv based on current step
+        
           switch(Array.from(steps).indexOf(nextItem)) {
               case 2:
                 
@@ -45,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <p class="breaths" style="color:azure;">Breaths remaining: <span class="breaths-text">3</span></p>
     <p class="instructions" style="color: azure;">Are you ready to start breathing?</p>
     <button class="start" style="color: black;">Begin</button>
-    <script src="script.js"></script>
+    <script src="steps.js"></script>
     </div>` 
                  
                   break;
@@ -53,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   stepscontainerDiv.innerHTML = `
                   <div id="om">
         <div id="omcontainer">
-            <img src="omimg.png">
+            <img src="">
         </div>
     </div>
                   `
